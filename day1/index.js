@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-let nums = fs.readFileSync(path.join(__dirname, 'input.txt'))
+let nums = fs.readFileSync(path.join(__dirname, '../', 'input', '2020', 'day1.txt'))
     .toString()
     .split('\n').map(str => parseInt(str, 10))
     .sort((a, b) => a - b);

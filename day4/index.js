@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-let input = fs.readFileSync(path.join(__dirname, 'input.txt'))
+let input = fs.readFileSync(path.join(__dirname, '../', 'input', '2020', 'day4.txt'))
     .toString()
     .split('\n');
 
